@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog | Home</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>My Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#subscribe">Subscribe</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="featured-post">
+            <article>
+                <h2>Featured Post</h2>
+                <p>Summary of the featured post...</p>
+                <a href="posts/post1.html" class="read-more">Read More</a>
+            </article>
+        </section>
+
+        <section class="recent-posts">
+            <h2>Recent Posts</h2>
+            <div class="post-grid">
+                <!-- Posts will be loaded dynamically with JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <aside class="sidebar">
+        <section class="about-preview">
+            <h3>About Me</h3>
+            <p>Short bio preview...</p>
+            <a href="about.html">Read more about me</a>
+        </section>
+        <section class="newsletter" id="subscribe">
+            <h3>Subscribe</h3>
+            <form id="subscribe-form">
+                <input type="email" placeholder="Your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+    </aside>
+
+    <footer>
+        <p>&copy; 2023 My Blog. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
